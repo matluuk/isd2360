@@ -84,8 +84,8 @@ enum SignalPath {
 class ISD2360 {
 
 public:
-  ISD2360(uint8_t pinRdy, uint8_t pinSsb, bool debug);
-  void begin();
+ISD2360(uint8_t pinRdy, uint8_t pinSsb, uint8_t pinMosi, uint8_t pinMiso, uint8_t pinSck, bool debug);
+void begin();
   bool getDebug();
   void setDebug(bool debug);
 
@@ -111,9 +111,12 @@ public:
   
   void configureSignalPath(SignalPath signalPath);
 
-private:
+  private:
   uint8_t pinRdy;
   uint8_t pinSsb;
+  uint8_t pinMosi;
+  uint8_t pinMiso;
+  uint8_t pinSck;
   
   uint8_t deviceStatus;
   uint8_t data[ISD2360_BUF_SIZE] = {0};

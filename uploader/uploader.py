@@ -113,6 +113,11 @@ def upload(serial_port_path: str, image_path: str):
     port = serial.Serial(serial_port_path, BAUD_RATE, timeout=TIMEOUT)
     print(f'Opened serial port "{serial_port_path}" @ {BAUD_RATE} baud')
     
+    # print serial port data
+    # while True:
+    #     data = port.read(1)
+    #     print(f'Port data: {data.hex()}')
+    
     # read the entire image file into memory
     if not os.path.exists(image_path):
         raise RuntimeError(f'Image file "{image_path}" does not exist')
@@ -127,7 +132,9 @@ def upload(serial_port_path: str, image_path: str):
     if _continue.lower() != 'y':
         print('Aborting.')
         exit(1)
-
+    # Serial read line
+    read = port.readline()
+    print(read)
     # arduino will typically reset when serial port is opened, so we wait until it's ready
     print('Waiting for ready packet from device')
     _expect_byte(port, PACKET_RDY)

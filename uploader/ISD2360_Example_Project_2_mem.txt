@@ -1,0 +1,113 @@
+// Voice Prompt Editor Version 236.0010
+// Date 05/01/2025
+//
+// Total file size is 8192 (0x2000) Bytes
+// There are 7 Voice Prompts in this file.
+// There are 12 Voice Macros in this file.
+// There are 0 reserved memory entries in this file.
+// Protection Memory Pointer at address 0x0 (sector 0x0).
+
+#define POI_VM0		00
+#define PU_VM1		01
+#define WAKEUP_VM2		02
+#define VM_3_VM3		03
+#define VM_4_VM4		04
+#define VM_5_VM5		05
+#define VM_6_VM6		06
+#define VM_7_VM7		07
+#define VM_8_VM8		08
+#define VM_9_VM9		09
+#define VM_A_VM10		10
+#define VM_B_VM11		11
+#define One_VP12		12
+#define two_VP13		13
+#define three_VP14		14
+#define Do_VP15		15
+#define Re_VP16		16
+#define Mi_VP17		17
+#define FastBeep_VP18		18
+
+// Voice Macros
+// VM TAG             #            SA    EA  
+//             POI    0 0x001f16  0x001f49
+//              PU    1 0xffffff  0xffffff
+//          WAKEUP    2 0x001f4a  0x001f4d
+//            VM_3    3 0x001f4e  0x001f5d
+//            VM_4    4 0x001f5e  0x001f6d
+//            VM_5    5 0x001f6e  0x001f7d
+//            VM_6    6 0xffffff  0xffffff
+//            VM_7    7 0x001f7e  0x001f81
+//            VM_8    8 0x001f82  0x001f85
+//            VM_9    9 0x001f86  0x001f89
+//            VM_A   10 0x001f8a  0x001f8d
+//            VM_B   11 0x001f8e  0x001f91
+// Reserved Memory
+// RM TAG             #            SA    EA  
+//                  0xbaadf00d  0xc658c00c
+// Voice Prompts
+// VP TAG             #           Compression   Sample Rate   SA    EA  
+//             One   12           ADPCM14-4-E2       8000 0x000086  0x000737
+//             two   13           ADPCM14-4-E2       8000 0x000738  0x000dc4
+//           three   14           ADPCM14-4-E2       8000 0x000dc5  0x001564
+//              Do   15                   PCM8       8000 0x001565  0x001885
+//              Re   16                   PCM8       8000 0x001886  0x001ba6
+//              Mi   17                   PCM8       8000 0x001ba7  0x001e79
+//        FastBeep   18           ADPCM14-4-E2       8000 0x001e7a  0x001f15
+// Voice Macro Detail
+// VM             POI Index    0
+//   CFG(REG2, 0x44)
+//   CFG(VOLC, 0x04)
+//   PLAY_VP(FastBeep)
+//   CFG(REG_GPIO_OE, 0x00)
+//   CFG(REG_GPIO_PE, 0x3f)
+//   CFG(REG_GPIO_PS, 0x3f)
+//   CFG(REG_GPIO_AF1, 0x37)
+//   CFG(REG_GPIO_AF0, 0x00)
+//   CFG(GPIO_TRIG_CH_SEL_L, 0x24)
+//   CFG(GPIO_TRIG_CH_SEL_H, 0x03)
+//   CFG(GPIO_VOL_UD_SEL, 0xdc)
+//   CFG(R0, 0x03)
+//   CFG(R1, 0x04)
+//   CFG(R2, 0x05)
+//   CFG(R3, 0x06)
+//   CFG(R4, 0x07)
+//   CFG(R5, 0x08)
+//   PD
+// VM              PU Index    1
+// VM          WAKEUP Index    2
+//   CFG(REG2, 0x44)
+//   Finish
+// VM            VM_3 Index    3
+//   CFG(R0, 0x09)
+//   CFG(REG1, 0x20)
+//   PLAY_VP(One)
+//   LOOP_VP(Do,0)
+//   PD
+// VM            VM_4 Index    4
+//   CFG(R1, 0x0a)
+//   CFG(REG1, 0x20)
+//   PLAY_VP(two)
+//   LOOP_VP(Re,0)
+//   Finish
+// VM            VM_5 Index    5
+//   CFG(R2, 0x0b)
+//   CFG(REG1, 0x20)
+//   PLAY_VP(three)
+//   LOOP_VP(Mi,0)
+//   Finish
+// VM            VM_6 Index    6
+// VM            VM_7 Index    7
+//   PLAY_VP(FastBeep)
+//   PD
+// VM            VM_8 Index    8
+//   PLAY_VP(FastBeep)
+//   PD
+// VM            VM_9 Index    9
+//   CFG(R0, 0x03)
+//   Finish
+// VM            VM_A Index   10
+//   CFG(R1, 0x04)
+//   Finish
+// VM            VM_B Index   11
+//   CFG(R2, 0x05)
+//   Finish

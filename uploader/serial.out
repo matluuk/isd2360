@@ -1,0 +1,2657 @@
+FlashDebug started
+ISD2360 initialized.
+[+] RESET
+[+] PWR_UP
+        Waiting for device to power up...
+                PD -> 0
+                DBUF_RDY -> 1
+        Waiting for Power-Up Voice Macro to complete...
+[+] WR_CFG_REG(0x1E, 0x0)
+[+] WR_CFG_REG(0x1F, 0x10)
+        Done.
+Erasing chip...
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x41
+                PD = 0
+                DBUF_RDY = 1
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 1
+        Interrupt Status = 0x0
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] CHIP_ERASE
+Flashing 7 sectors...
+Sector 0
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x0, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x80, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x100, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x180, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x200, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x280, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x300, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x380, 128)
+Sector 1
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x400, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x480, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x500, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x580, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x600, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x680, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x700, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x780, 128)
+Sector 2
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x800, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x880, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x900, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x980, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xA00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xA80, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xB00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xB80, 128)
+Sector 3
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xC00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xC80, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xD00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xD80, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xE00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xE80, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xF00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0xF80, 128)
+Sector 4
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1000, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1080, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1100, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1180, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1200, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1280, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1300, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1380, 128)
+Sector 5
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1400, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1480, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1500, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1580, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1600, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1680, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1700, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1780, 128)
+Sector 6
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1800, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1880, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1900, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1980, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1A00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1A80, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1B00, 128)
+[+] READ_STATUS
+        Status = 0x60
+                PD = 0
+                DBUF_RDY = 1
+                INT = 1
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x20
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 1
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] DIG_WRITE(0x1B80, 128)
+Verifying...
+[+] DIG_READ(0x0, 128)
+[+] DIG_READ(0x80, 128)
+[+] DIG_READ(0x100, 128)
+[+] DIG_READ(0x180, 128)
+[+] DIG_READ(0x200, 128)
+[+] DIG_READ(0x280, 128)
+[+] DIG_READ(0x300, 128)
+[+] DIG_READ(0x380, 128)
+[+] DIG_READ(0x400, 128)
+[+] DIG_READ(0x480, 128)
+[+] DIG_READ(0x500, 128)
+[+] DIG_READ(0x580, 128)
+[+] DIG_READ(0x600, 128)
+[+] DIG_READ(0x680, 128)
+[+] DIG_READ(0x700, 128)
+[+] DIG_READ(0x780, 128)
+[+] DIG_READ(0x800, 128)
+[+] DIG_READ(0x880, 128)
+[+] DIG_READ(0x900, 128)
+[+] DIG_READ(0x980, 128)
+[+] DIG_READ(0xA00, 128)
+[+] DIG_READ(0xA80, 128)
+[+] DIG_READ(0xB00, 128)
+[+] DIG_READ(0xB80, 128)
+[+] DIG_READ(0xC00, 128)
+[+] DIG_READ(0xC80, 128)
+[+] DIG_READ(0xD00, 128)
+[+] DIG_READ(0xD80, 128)
+[+] DIG_READ(0xE00, 128)
+[+] DIG_READ(0xE80, 128)
+[+] DIG_READ(0xF00, 128)
+[+] DIG_READ(0xF80, 128)
+[+] DIG_READ(0x1000, 128)
+[+] DIG_READ(0x1080, 128)
+[+] DIG_READ(0x1100, 128)
+[+] DIG_READ(0x1180, 128)
+[+] DIG_READ(0x1200, 128)
+[+] DIG_READ(0x1280, 128)
+[+] DIG_READ(0x1300, 128)
+[+] DIG_READ(0x1380, 128)
+[+] DIG_READ(0x1400, 128)
+[+] DIG_READ(0x1480, 128)
+[+] DIG_READ(0x1500, 128)
+[+] DIG_READ(0x1580, 128)
+[+] DIG_READ(0x1600, 128)
+[+] DIG_READ(0x1680, 128)
+[+] DIG_READ(0x1700, 128)
+[+] DIG_READ(0x1780, 128)
+[+] DIG_READ(0x1800, 128)
+[+] DIG_READ(0x1880, 128)
+[+] DIG_READ(0x1900, 128)
+[+] DIG_READ(0x1980, 128)
+[+] DIG_READ(0x1A00, 128)
+[+] DIG_READ(0x1A80, 128)
+[+] DIG_READ(0x1B00, 128)
+[+] DIG_READ(0x1B80, 128)
+Flash verify OK!
+Playing 'test' prompt...
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 0
+[+] READ_INT
+        TALARM_INT = 0
+        MPT_ERR = 0
+        WR_FIN = 0
+        CMD_ERR = 0
+        OVF_ERR = 0
+        CH2_FIN = 0
+        CH1_FIN = 0
+        CH0_FIN = 1
+[+] PLAY_VP(3)
+[+] READ_STATUS
+        Status = 0x80
+                PD = 1
+                DBUF_RDY = 0
+                INT = 0
+                CH2_BSY = 0
+                CH1_BSY = 0
+                CH0_BSY = 0
+                DIG_BSY = 0
+        Interrupt Status = 0x0
+[+] PWR_DN

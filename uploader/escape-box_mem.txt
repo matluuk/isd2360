@@ -1,0 +1,29 @@
+// Voice Prompt Editor Version 236.0010
+// Date 05/01/2025
+//
+// Total file size is 7168 (0x1c00) Bytes
+// There are 1 Voice Prompts in this file.
+// There are 3 Voice Macros in this file.
+// There are 0 reserved memory entries in this file.
+// Protection Memory Pointer at address 0x0 (sector 0x0).
+
+#define POI_VM0		00
+#define PU_VM1		01
+#define WAKEUP_VM2		02
+#define test_VP3		03
+
+// Voice Macros
+// VM TAG             #            SA    EA  
+//             POI    0 0xffffff  0xffffff
+//              PU    1 0xffffff  0xffffff
+//          WAKEUP    2 0xffffff  0xffffff
+// Reserved Memory
+// RM TAG             #            SA    EA  
+//                  0x000000  0xffffffff
+// Voice Prompts
+// VP TAG             #           Compression   Sample Rate   SA    EA  
+//            test    3           ADPCM14-4-E2       8000 0x00002c  0x00199e
+// Voice Macro Detail
+// VM             POI Index    0
+// VM              PU Index    1
+// VM          WAKEUP Index    2

@@ -19,9 +19,12 @@
 
 #include <ISD2360.h>
 
-#define PIN_LED_UPDATE 8
-#define PIN_RDY 9
-#define PIN_SSB 10
+// #define PIN_LED_UPDATE 8
+#define PIN_RDY GPIO_NUM_14
+#define PIN_SSB GPIO_NUM_48
+#define PIN_MOSI GPIO_NUM_11
+#define PIN_MISO GPIO_NUM_9
+#define PIN_SCK  GPIO_NUM_12
 
 #define PACKET_HELLO 0x01
 #define PACKET_HELLO_ACK 0x02
@@ -30,7 +33,10 @@
 #define PACKET_STOP 0x05
 #define PACKET_RDY 0x06
 
-ISD2360 isd(PIN_RDY, PIN_SSB, false);
+#define VIBRATOR_PIN GPIO_NUM_39
+
+ISD2360 isd(PIN_RDY, PIN_SSB, PIN_MOSI, PIN_MISO, PIN_SCK, true);
+
 
 byte n_sectors = 0;
 byte response = 0;
@@ -39,15 +45,19 @@ size_t bytes_read = 0;
 
 void setup()
 {
-  Serial.begin(115200);
-  pinMode(PIN_LED_UPDATE, OUTPUT);
-  digitalWrite(PIN_LED_UPDATE, LOW);
+  delay(5000);
+  pinMode(VIBRATOR_PIN, OUTPUT);
+  digitalWrite(VIBRATOR_PIN, HIGH);
 
-  // set up chip, light up LED to signal when we're ready
+  Serial.begin(115200);
+  delay(1000);
+
+  Serial.println("FlashUpdate started");
+  
   isd.begin();
   isd.reset();
   isd.powerUp();
-  digitalWrite(PIN_LED_UPDATE, HIGH);
+  digitalWrite(VIBRATOR_PIN, LOW); // Vibrator OFF to indicate ready
   Serial.write(PACKET_RDY);
 
   // handshake
@@ -56,7 +66,7 @@ void setup()
   if (Serial.read() != PACKET_HELLO)
   {
     Serial.write(PACKET_ERR);
-    digitalWrite(PIN_LED_UPDATE, LOW);
+    digitalWrite(VIBRATOR_PIN, HIGH); 
     return;
   }
 
@@ -80,7 +90,7 @@ void setup()
     if (response != i)
     {
       Serial.write(PACKET_ERR);
-      digitalWrite(PIN_LED_UPDATE, LOW);
+      digitalWrite(VIBRATOR_PIN, HIGH); 
       return;
     }
     Serial.write(PACKET_ACK);
@@ -107,7 +117,7 @@ void setup()
   if (response != PACKET_ACK)
   {
     Serial.write(PACKET_ERR);
-    digitalWrite(PIN_LED_UPDATE, LOW);
+    digitalWrite(VIBRATOR_PIN, HIGH); 
     return;
   }
 
@@ -120,7 +130,7 @@ void setup()
     if (response != i)
     {
       Serial.write(PACKET_ERR);
-      digitalWrite(PIN_LED_UPDATE, LOW);
+      digitalWrite(VIBRATOR_PIN, HIGH); 
       return;
     }
     Serial.write(PACKET_ACK);
@@ -138,7 +148,7 @@ void setup()
       if (response != PACKET_ACK)
       {
         Serial.write(PACKET_ERR);
-        digitalWrite(PIN_LED_UPDATE, LOW);
+        digitalWrite(VIBRATOR_PIN, HIGH); 
         return;
       }
     }
@@ -152,13 +162,13 @@ void setup()
   if (response != PACKET_ACK)
   {
     Serial.write(PACKET_ERR);
-    digitalWrite(PIN_LED_UPDATE, LOW);
+    digitalWrite(VIBRATOR_PIN, HIGH); 
     return;
   }
 
   // cleanup
   isd.powerDown();
-  digitalWrite(PIN_LED_UPDATE, LOW);
+  digitalWrite(VIBRATOR_PIN, HIGH); // Vibrator ON at end
 }
 
 void loop()
